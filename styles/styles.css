@@ -261,7 +261,7 @@ div {
 .projects-photos {
     list-style: none;
     display: flex;
-    margin-left: 520px;
+    margin-left: 540px;
 }
 
 .projects-photos__item {
