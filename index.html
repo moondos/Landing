@@ -43,9 +43,9 @@
         <section class="projects">
             <div class="container projects-container">
                 <ul class="projects-photos">
-                    <li class="projects-photos__item"><a href="#">Rostov-on-Don, Admiral</a></li>
-                    <li class="projects-photos__item"><a href="#">Sochi Thieves</a></li>
-                    <li class="projects-photos__item"><a href="#">Rostov-on-Don Patriotic</a></li>
+                    <li class="projects-photos__item"><a class="item-active" href="#!">Rostov-on-Don, Admiral</a></li>
+                    <li class="projects-photos__item"><a href="#!">Sochi Thieves</a></li>
+                    <li class="projects-photos__item"><a href="#!">Rostov-on-Don Patriotic</a></li>
                 </ul>    
                 <div class="projects-inner-container">
                     <div class="projects-inner-text">
@@ -54,7 +54,7 @@
                             on the site. For 14 years on in the construction 
                             market we have made happy more than 1000 families</p>
                             <div class="projects-block__mob">
-                                <img class="projects-image__mob" src="./images/image_2.1__mob.jpg" alt="slider">
+                                <img class="projects-image__mob" src="./images/image_2.1.jpg" alt="slider">
                                 <div class="projects-buttons__mob">
                                     <button class="button projects-button"><img src="./images/left.svg" alt="."></button>
                                     <button class="button projects-button"><img src="./images/right.svg" alt="."></button>
@@ -64,35 +64,41 @@
                             <div class="projects-description_row">
                                 <div class="projects-description__item">
                                     <h3>CITY:</h3>
-                                    <span>Rostov-on-Don <br/> LCD admiral</span>
+                                    <span class="projects-data">Rostov-on-Don <br/> LCD admiral</span>
                                 </div>
                                 <div class="projects-description__item">
                                     <h3>apartment area:</h3>
-                                    <span>81 m2</span>
+                                    <span class="projects-data">81 m2</span>
                                 </div>
                             </div>
                             <div class="projects-description_row">
                                 <div class="projects-description__item">
                                     <h3>Repair time:</h3>
-                                    <span>3.5 months</span>
+                                    <span class="projects-data">3.5 months</span>
                                 </div>
                                 <div class="projects-description__item">
                                     <h3>Repair Cost:</h3>
-                                    <span>Upon request</span>
+                                    <span class="projects-data">Upon request</span>
                                 </div>
                             </div>
                             
                         </div>
                         
                         <div class="projects-navigation">
-                            <img src="./images/arrow_left.svg" alt="left arrow" class="arrow-left">
+                            <button class="projects-buttons btn-left">
+                                <img src="./images/arrow_left.svg" alt="left arrow" class="arrow-left">
+                            </button>
+                            
+                            <span class="projects-navigation-item dot-active"></span>
                             <span class="projects-navigation-item"></span>
                             <span class="projects-navigation-item"></span>
-                            <span class="projects-navigation-item"></span>
-                            <img src="./images/arrow_right.svg" alt="right arrow" class="arrow-right">
+                            <button class="projects-buttons btn-right">
+                                <img src="./images/arrow_right.svg" alt="right arrow" class="arrow-right">
+                            </button>
+                            
                         </div>
                     </div>
-                    <img src="./images/image 2.1.jpg" alt="rostov-on-don,admiral" class="projects-image">
+                    <img src="./images/image_2.1.jpg" alt="rostov-on-don,admiral" class="projects-image">
                 </div>
 
             </div>
@@ -413,5 +419,6 @@
             <button class="button footer-button">REQUEST A CALL</button>
         </div>
     </footer>
+    <script src="scripts/slider.js"></script>
 </body>
 </html>
